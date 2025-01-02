@@ -32,7 +32,7 @@ body{
     font-size: 18px;
     margin-right: 8px;
 }
-img{
+.about-section img{
     height: 400px;
     width: 400px;
     border-radius: 300px;
@@ -96,7 +96,7 @@ li{
     justify-content: center;
     align-items: center; */
     position: absolute;
-    top:-38px;
+    top:12px;
     right: 20px;
     z-index: 1;
 
@@ -105,4 +105,25 @@ li{
     text-align: start;
     padding-left: 30px;
     
+}
+.follow-logo img{
+    height: 20px;
+    width: 20px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+.footer-items p{
+    line-height: 2px;
+    font-family: "Outfit", serif;
+    font-weight: 100;
+}
+p.item-info{
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    font-weight: 900;
 }
