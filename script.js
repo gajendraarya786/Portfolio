@@ -5,7 +5,7 @@ let innerbody = document.querySelector(".innerbody");
 resume.addEventListener("click", loadPage);
 
 function loadPage() {
-    fetch("ind.html") // Replace with the path to your HTML file
+    fetch("resume.html") // Replace with the path to your HTML file
       .then(response => response.text())
       .then(data => {
        innerbody.innerHTML = data;
