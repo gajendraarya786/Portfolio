@@ -13,4 +13,14 @@
 }
 hr{
     margin-top: 50px;
+    width: 95%;
+}
+.resume h3{
+    font-family: "Roboto", serif;
+}
+.resume-about p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: "Outfit", serif;
+    font-weight: 600;
 }
