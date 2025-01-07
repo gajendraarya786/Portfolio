@@ -2,7 +2,14 @@ let resume = document.querySelector(".Resume");
 let project = document.querySelector(".Project");
 let contact = document.querySelector(".Contact");
 let innerbody = document.querySelector(".innerbody");
+let githubBtn = document.querySelector(".btn2");
 resume.addEventListener("click", loadPage);
+
+githubBtn.addEventListener("click", redirecttoGithub());
+
+function redirecttoGithub () {
+  window.location.href = "https://github.com/gajendraarya786";
+}
 
 function loadPage() {
     fetch("resume.html") // Replace with the path to your HTML file
