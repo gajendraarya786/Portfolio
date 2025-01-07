@@ -3,7 +3,14 @@ let project = document.querySelector(".Project");
 let contact = document.querySelector(".Contact");
 let innerbody = document.querySelector(".innerbody");
 let githubBtn = document.querySelector(".btn2");
+let linkedBtn = document.querySelector("#linkedInBtn");
 resume.addEventListener("click", loadPage);
+
+linkedBtn.addEventListener("click", redirecttoLinkedIn);
+
+function redirecttoLinkedIn () {
+  window.location.href = "https://www.linkedin.com/in/gajendra-kumar-arya-006076297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
+}
 
 githubBtn.addEventListener("click", redirecttoGithub());
 
