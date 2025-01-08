@@ -1,10 +1,12 @@
 let resume = document.querySelector(".Resume");
-let project = document.querySelector(".Project");
+let project = document.querySelector(".Projects");
 let contact = document.querySelector(".Contact");
 let innerbody = document.querySelector(".innerbody");
 let githubBtn = document.querySelector(".btn2");
 let linkedBtn = document.querySelector("#linkedInBtn");
 resume.addEventListener("click", loadPage);
+
+project.addEventListener("click", projectpage);
 
 linkedBtn.addEventListener("click", redirecttoLinkedIn);
 
@@ -26,6 +28,16 @@ function loadPage() {
       })
       .catch(error => console.error("Error loading page:", error));
   }
+
+  function projectpage() {
+    fetch("project.html") // Replace with the path to your HTML file
+      .then(response => response.text())
+      .then(data => {
+       innerbody.innerHTML = data;
+      })
+      .catch(error => console.error("Error loading page:", error));
+  }
+
 
   // to add external html and cssfile
   function loadPage2() {
