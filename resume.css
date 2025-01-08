@@ -1,6 +1,7 @@
 #resume {
     position: relative;
     left:188px;
+    margin-top:80px;
 }
 .resume{
     display: flex;

@@ -83,9 +83,10 @@ li{
     border: none;
     border-radius: 50px;
     position: relative;
-    left: 50%;
+    left: 53%;
     top:20px;
     margin-right: 20px;
+    margin-bottom: 50px;
 }
  .link img{
     height: 30px;
@@ -127,3 +128,9 @@ p.item-info{
     font-size: 20px;
     font-weight: 900;
 }
+.innerbody{
+        opacity: 5;
+        transform: translateY(20px); /* Slightly move down */
+        transition: opacity 0.5s ease, ease-in 0.5s ease;
+      
+} 
