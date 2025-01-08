@@ -7,6 +7,7 @@ let linkedBtn = document.querySelector("#linkedInBtn");
 resume.addEventListener("click", loadPage);
 
 project.addEventListener("click", projectpage);
+contact.addEventListener("click", contactpage);
 
 linkedBtn.addEventListener("click", redirecttoLinkedIn);
 
@@ -30,6 +31,16 @@ function loadPage() {
   }
 
   function projectpage() {
+    fetch("contact.html") // Replace with the path to your HTML file
+      .then(response => response.text())
+      .then(data => {
+       innerbody.innerHTML = data;
+      })
+      .catch(error => console.error("Error loading page:", error));
+  }
+
+
+  function contactpage() {
     fetch("project.html") // Replace with the path to your HTML file
       .then(response => response.text())
       .then(data => {
