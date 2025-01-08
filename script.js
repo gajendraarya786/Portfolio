@@ -31,7 +31,7 @@ function loadPage() {
   }
 
   function projectpage() {
-    fetch("contact.html") // Replace with the path to your HTML file
+    fetch("project.html") // Replace with the path to your HTML file
       .then(response => response.text())
       .then(data => {
        innerbody.innerHTML = data;
@@ -41,7 +41,7 @@ function loadPage() {
 
 
   function contactpage() {
-    fetch("project.html") // Replace with the path to your HTML file
+    fetch("contact.html") // Replace with the path to your HTML file
       .then(response => response.text())
       .then(data => {
        innerbody.innerHTML = data;
