@@ -65,3 +65,7 @@ function loadPage() {
       })
       .catch(error => console.error("Error loading page:", error));
   }
+
+  setTimeout(() => {
+    resume.classList.add('loaded');
+  }, 50); // Small delay to ensure the animation is noticeable
