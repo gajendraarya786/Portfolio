@@ -13,7 +13,7 @@ body{
     padding-top: 10px;
 }
 .title{
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     margin-left: 50px;
     letter-spacing: 1px;
@@ -29,7 +29,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     margin-right: 8px;
 }
 .about-section img{
@@ -60,6 +60,7 @@ body{
     gap:5px;
     word-spacing: 5px;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 ul{
     padding-left: 0;
@@ -69,11 +70,12 @@ li{
     font-family: "Outfit",  serif;
     word-spacing: 5px;
     letter-spacing: 1px;
-    color:rgb(73, 73, 73)
+    color:rgb(73, 73, 73);
+    font-size: 20px;
 }
 .link{
-    height: 55px;
-    width: 120px;
+    height: 75px;
+    width: 150px;
     font-family: "Outfit", serif;
     font-weight: 600;
     letter-spacing: 1px;
@@ -83,10 +85,11 @@ li{
     border: none;
     border-radius: 50px;
     position: relative;
-    left: 53%;
+    left: 58%;
     top:20px;
     margin-right: 20px;
     margin-bottom: 50px;
+    font-size: 18px;
 }
  .link img{
     height: 30px;
@@ -97,8 +100,8 @@ li{
     justify-content: center;
     align-items: center; */
     position: absolute;
-    top:12px;
-    right: 20px;
+    top:22px;
+    right: 15px;
     z-index: 1;
 
 }#btn2{
