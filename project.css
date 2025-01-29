@@ -3,7 +3,9 @@
     padding:20px;
     padding-left: 80px;
     padding-right: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    padding-top:80px;
 }
 .project-about{
     width: 40%;
@@ -13,3 +15,34 @@
     width: 550px;
     border-radius: 15px;
 }
+.project-about li{
+    color:black;
+    font-size: 22px;
+}
+.project-about h3{
+    font-size: 22px;
+}
+.project-about h2{
+    font-size: 30px;
+}
+#projectHeading{
+    margin-left: 170px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: 34px;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-on-load {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
